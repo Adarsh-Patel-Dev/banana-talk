@@ -23,9 +23,9 @@ function clickHandler() {
     var inputText = txtInput.value; //taking input
 
     fetch(getTransalationURL(inputText)) //calling server for processing
-        .then(response => response.json())
+        .then(response => response.json()) //convert fetched URL and convert response to response.json
         //.then(json => console.log(json.contents.translated))
-        .then(json =>{
+        .then(json =>{    //take that json and read translated value and store to translatedText and show it as o/p
             var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;
         })
