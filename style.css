@@ -6,7 +6,9 @@
     font-family: 'Pangolin', cursive;
 }
 body {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Pangolin', cursive;
     color: #B45309;
     background-color: #FCD34D;
@@ -87,10 +89,10 @@ body {
 }
 
 .footer{
- margin-top: 100px;
+ margin-top: auto;
  background-color: #B45309;
  color: white;
- height: 155px; 
+ height: auto; 
  border-top-left-radius: 20px;
  border-top-right-radius: 20px;
 
@@ -98,7 +100,7 @@ body {
 
 h4{
  text-align: center;
- padding-top: 12px;
+ padding-top: 1px;
  letter-spacing: 5px;
 
 }
