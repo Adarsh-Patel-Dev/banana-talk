@@ -66,7 +66,17 @@ body {
     border-style: none;
     border-radius: 10px;
     border: 2px solid black;
+    transition: 1s;
 
+}
+
+#btn-translate:hover{
+    box-shadow: 5px 5px 5px rgba(46, 46, 46, 0.788);
+    color: black;
+    background-color: #b45309a4;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 0.5rem;
 }
 
 
@@ -81,7 +91,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 0px;
     border: 2px solid brown ;
     background: white;
@@ -89,13 +99,23 @@ body {
 }
 
 .footer{
- margin-top: auto;
- background-color: #B45309;
- color: white;
- height: auto; 
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
 
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ background-color: rgba(255, 255, 255, 0);
+ color: black;
+ height: auto; 
+ border-radius: 10px;
+
+}
+
+.footer:hover{
+    background-color: rgb(34, 33, 33);
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid brown;
 }
 
 h4{
@@ -111,3 +131,75 @@ p{
     font-family:'Comfortaa', cursive ;
     font-size: small;
 }
+
+/*footer*/
+
+footer{
+    background-color: #B45309;
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: 'Comfortaa', cursive;
+    transition: 1s;
+    
+}
+
+footer:hover{
+    background-color: #b4530985;
+    transition: 1s;
+}
+
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    transition: 1s;
+  }
+
+  .fa-github:hover{
+      color: #624a85;
+     margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+}
+
+  .fa-linkedin:hover{
+      color: #0e76a8 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-twitter:hover{
+      color:#1DA1F2;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-instagram:hover{
+      color:#fb3958 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+  
+  footer h3{
+      
+      padding: 3rem;
+      margin: auto;
+      text-align: center;
+      color: white;
+  }
+
+  .icon{
+      margin-left: 2rem;
+      padding: auto;
+      text-align: center;
+      font-size: x-large;
+  }
